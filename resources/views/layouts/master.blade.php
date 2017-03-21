@@ -12,7 +12,8 @@
         <title>Cabañas Temporad</title>
 
         <!-- Bootstrap Core CSS -->
-        <link rel="stylesheet" href="/css/bootstrap.css" rel="stylesheet">
+        {{--<link rel="stylesheet" href="/css/bootstrap.css" rel="stylesheet">--}}
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}" rel="stylesheet">
 
         <!-- Template CSS -->
         <link rel="stylesheet" href="/css/animate.css" rel="stylesheet">

@@ -35,7 +35,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <li style="display: none">
                         <span class="fa-th">Fotos</span>
                         <ul>
                             <li>
@@ -52,7 +52,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <li style="display: none">
                         <span class="fa-usd">Tarifas</span>
                         <ul>
                             <li>
@@ -63,7 +63,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <li style="display: none">
                         <a href="contact.html" class="fa-comment">Contacto  </a>
                     </li>
                 </ul>

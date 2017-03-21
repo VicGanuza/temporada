@@ -48,7 +48,7 @@
                         <a href="mailto:info@joomla51.com">temporadacab@smandes.com.ar</a>
                         <br>
                         <span class="fa-link">Sitio Web:</span>
-                        <a href="http://www.joomla51.com">www.temporada-sma.com.ar</a>
+                        <a href="http://temporada-sma.com.ar">www.temporada-sma.com.ar</a>
                     </p></p>
                 </div>
                 <hr class="margin-bottom-40">
