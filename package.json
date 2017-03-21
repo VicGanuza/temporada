@@ -1,30 +1,34 @@
 {
-  "name": "temporada",
-  "version": "0.0.1",
-  "description": "dependencias para el proyecto",
-  "private": true,
-  "scripts": {},
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.4.1"
-  },
-  "main": "webpack.mix.js",
-  "directories": {
-    "test": "tests"
-  },
-  "dependencies": {
-    "glup": "^1.0.14",
-    "minimatch": "^3.0.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Vicganuza/temporada.git"
-  },
-  "author": "Victoria Ganuza",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Vicganuza/temporada/issues"
-  },
-  "homepage": "https://github.com/Vicganuza/temporada#readme"
+    "name": "temporada",
+    "version": "0.0.1",
+    "description": "",
+    "private": true,
+    "scripts": {},
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-sass": "^3.1.0",
+        "gulp-sourcemaps": "^2.4.1",
+        "axios": "^0.15.3",
+        "bootstrap-sass": "^3.3.7",
+        "cross-env": "^3.2.3",
+        "jquery": "^3.1.1",
+        "laravel-mix": "^0.8.3",
+        "lodash": "^4.17.4",
+        "vue": "^2.1.10"
+
+    },
+    "main": "webpack.mix.js",
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/Vicganuza/temporada.git"
+    },
+    "author": "Victoria Ganuza",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Vicganuza/temporada/issues"
+    },
+    "homepage": "https://github.com/Vicganuza/temporada#readme"
 }
