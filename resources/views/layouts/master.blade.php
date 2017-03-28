@@ -13,14 +13,14 @@
 
         <!-- Bootstrap Core CSS -->
         {{--<link rel="stylesheet" href="/css/bootstrap.css" rel="stylesheet">--}}
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
         <!-- Template CSS -->
-        <link rel="stylesheet" href="/css/animate.css" rel="stylesheet">
-        <link rel="stylesheet" href="/css/font-awesome.css" rel="stylesheet">
-        <link rel="stylesheet" href="/css/nexus.css" rel="stylesheet">
-        <link rel="stylesheet" href="/css/responsive.css" rel="stylesheet">
-        <link rel="stylesheet" href="/css/custom.css" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('/css/animate.css') }}"  rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('/css/font-awesome.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('/css/nexus.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('/css/responsive.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('/css/custom.css') }}" rel="stylesheet">
     </head>
 
     <body>
@@ -51,20 +51,20 @@
         <!-- Bootstrap core JavaScript
         ================================================== -->
 
-        <script type="text/javascript" src="/js/libs/jquery.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="/js/libs/bootstrap.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="/js/libs/scripts.js"></script>
+        <script type="text/javascript" src="{{ asset('/js/libs/jquery.min.js') }}" type="text/javascript"></script>
+        <script type="text/javascript" src="{{ asset('/js/libs/bootstrap.min.js') }}" type="text/javascript"></script>
+        <script type="text/javascript" src="{{ asset('/js/libs/scripts.js') }}"></script>
         <!-- Isotope - Portfolio Sorting -->
-        <script type="text/javascript" src="/js/libs/jquery.isotope.js" type="text/javascript"></script>
+        <script type="text/javascript" src="{{ asset('/js/libs/jquery.isotope.js') }}" type="text/javascript"></script>
         <!-- Mobile Menu - Slicknav -->
-        <script type="text/javascript" src="/js/libs/jquery.slicknav.js" type="text/javascript"></script>
+        <script type="text/javascript" src="{{ asset('/js/libs/jquery.slicknav.js') }}" type="text/javascript"></script>
         <!-- Animate on Scroll-->
-        <script type="text/javascript" src="/js/libs/jquery.visible.js" charset="utf-8"></script>
+        <script type="text/javascript" src="{{ asset('/js/libs/jquery.visible.js') }}" charset="utf-8"></script>
         <!-- Sticky Div -->
-        <script type="text/javascript" src="/js/libs/jquery.sticky.js" charset="utf-8"></script>
+        <script type="text/javascript" src="{{ asset('/js/libs/jquery.sticky.js') }}" charset="utf-8"></script>
         <!-- Slimbox2-->
-        <script type="text/javascript" src="/js/libs/slimbox2.js" charset="utf-8"></script>
+        <script type="text/javascript" src="{{ asset('/js/libs/slimbox2.js') }}" charset="utf-8"></script>
         <!-- Modernizr -->
-        <script src="js/libs/modernizr.custom.js" type="text/javascript"></script>
+        <script src="{{ asset('/js/libs/modernizr.custom.js') }}" type="text/javascript"></script>
     </body>
 </html>
